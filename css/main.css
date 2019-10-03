@@ -1,0 +1,176 @@
+/* Box sizing: border-box items */
+html {
+    box-sizing: border-box;
+    background-color: #e8ecf8;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Styling for body */
+/* by default, we style for the mobile view, then scaling up as necessary w/ media queries below */
+body {
+    max-width: 300px;
+    font-family: 'Playfair Display', serif;
+    color: #3C4B67;
+    margin: 48px 0px;
+    margin: 0 auto;
+}
+
+body img {
+    max-width: 100%;
+}
+
+section p {
+    margin-top: 0;
+}
+
+/* Cosmetic stylings for text */
+h1,
+h2,
+.job {
+    font-weight: 700;
+    color: #2A3740;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.job {
+    margin-bottom: 12px;
+}
+
+.job .title {
+    font-size: 1em;
+}
+
+.job .location,
+.location {
+    font-weight: 400;
+}
+
+.job .date {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.job * {
+    margin-bottom: 4px;
+}
+
+/* Media Queries for Responsive Design */
+/* Phones */
+@media screen and (min-width: 400px) {
+    body {
+        max-width: 360px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .job .title {
+        font-size: 1.1em;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
+
+}
+
+/* Somewhere between phones & tablets */
+@media screen and (min-width: 600px) {
+    body {
+        max-width: 560px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+
+    .job .title {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 608px;
+    }
+
+    header {
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2.6em;
+    }
+
+    .job .title {
+        font-size: 1.6em;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    body {
+        max-width: 768px;
+    }
+
+    header {
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+
+    .job .title {
+        font-size: 2em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+}
