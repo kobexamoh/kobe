@@ -11,6 +11,21 @@ html {
     box-sizing: inherit;
 }
 
+/* Navigation Styling */
+nav {
+    float: right;
+}
+
+nav a {
+    font-size: 1.5em;
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+nav a:first-of-type {
+    margin-left: 0px;
+}
+
 /* Styling for body */
 /* by default, we style for the mobile view, then scaling up as necessary w/ media queries below */
 body {
@@ -39,6 +54,9 @@ h2,
 
 h1 {
     font-size: 1.5em;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -173,4 +191,37 @@ p {
     p {
         font-size: 1.5em;
     }
+}
+
+/* Desktop 1440p*/
+@media screen and (min-width: 1440px) {
+    body {
+        max-width: 1200px;
+    }
+
+    header {
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+
+    .job .title {
+        font-size: 2em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+}
+/* Clearfix 😒 */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
