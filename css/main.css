@@ -14,16 +14,32 @@ html {
 /* Navigation Styling */
 nav {
     float: right;
+    margin-top: 10px;
+    display: none;
 }
 
 nav a {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
-    margin-left: 24px;
+    margin-left: 6px;
     text-decoration: none;
+    color: #2A3740;
+}
+
+nav a:hover {
+    color: white;
+    border-bottom: 5px solid white;
 }
 
 nav a:first-of-type {
     margin-left: 0px;
+}
+
+.active {
+    color: #B38B52;
+    font-weight: bolder;
+    border-bottom: 5px solid #B38B52;
+    /* TODO: pick a better color (for accessibility ratios) for the active class */
 }
 
 /* Styling for body */
@@ -66,6 +82,15 @@ h2 {
 
 p {
     font-size: 0.8em;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+header a {
+    text-decoration: none;
+    color: #2A3740;
 }
 
 .job {
@@ -138,7 +163,7 @@ p {
     }
 }
 
-/* Tablet */
+/* Tablet (This is where hamburger should kick in) */ 
 @media screen and (min-width: 768px) {
     body {
         max-width: 608px;
@@ -164,6 +189,11 @@ p {
         font-size: 1.2em;
     }
 
+    /* menu is now visible: hamburger menu should disappear */
+    nav {
+        display: initial;
+    }
+
 }
 
 /* Desktop */
@@ -177,7 +207,7 @@ p {
     }
 
     h1 {
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
     
     h2 {
@@ -219,6 +249,7 @@ p {
         font-size: 1.5em;
     }
 }
+
 /* Clearfix 😒 */
 .clearfix:after {
     content: "";
