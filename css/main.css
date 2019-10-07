@@ -42,6 +42,14 @@ nav a:first-of-type {
     /* TODO: pick a better color (for accessibility ratios) for the active class */
 }
 
+.menu {
+    float: right;
+}
+
+.menu object {
+    margin-top: 3px; /* to align with the h1 tag */
+}
+
 /* Styling for body */
 /* by default, we style for the mobile view, then scaling up as necessary w/ media queries below */
 body {
@@ -85,7 +93,8 @@ p {
 }
 
 header {
-    margin-bottom: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 header a {
