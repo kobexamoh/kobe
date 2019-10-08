@@ -46,8 +46,12 @@ nav a:first-of-type {
     float: right;
 }
 
-.menu object {
+.menu img {
     margin-top: 3px; /* to align with the h1 tag */
+}
+
+.hidden {
+    display: none;
 }
 
 /* Styling for body */
