@@ -10,7 +10,7 @@
         
         <p>I like being well rounded. I was always the kid who could never pick between the arts and the sciences, the kid who wasn't really sure <i>what</i> he wanted to do with his life. What does a jack-of-all-trades end up doing, anyway?</p>
     
-        <p>After a lot of interesting life experiences <strike>that may or may not have involved a previous life as a biology major</strike> I stumbled into the world of frontend development and since then, I've been hooked. It was a long time in the making, if I'm being honest; I never thought that throwing up a blog on Blogger in 7th grade would bring me full circle nearly two decades later to the world of frontend development.</p>
+        <p>After a lot of interesting life experiences <del>that may or may not have involved a previous life as a biology major</del> I stumbled into the world of frontend development and since then, I've been hooked. It was a long time in the making, if I'm being honest; I never thought that throwing up a blog on Blogger in 7th grade would bring me full circle nearly two decades later to the world of frontend development.</p>
     
         <p>This is probably where I'd use some buzzwords – empathy, crafting-delightful-and-thoughtful-experiences, pixel-perfect-layouts, all of that – but I won't. It wouldn't be me. I don't need buzzwords to tell you that I get a kick out of the frontend experience, and I <i>genuinely</i> mean that. All of the good parts, all of the messy parts (styling for Internet Explorer? In 2020?) to the things that everyone can't seem to come to a consensus on (<i>hello</i>, site architecture and card sorts) I really do get a kick out of building up things that people interact with.</p>
 
@@ -73,7 +73,7 @@
 
             <p>All in a day's work, really.</p>
 
-            <p>While some of the work I <i>did</i> do for F&O was quite internal (and can't be shared here), some of it was quite public facing! You're welcome to contact me for it; if you're feeling a little <strike>masochistic</strike> adventurous, you can visit the <a href="https://www.ualberta.ca/vice-president-facilities-operations/index.html" target="_blank">Facilities and Operations' website</a> and guess where I might have been involved in. Have fun!</p>
+            <p>While some of the work I <i>did</i> do for F&O was quite internal (and can't be shared here), some of it was quite public facing! You're welcome to contact me for it; if you're feeling a little <del>masochistic</del> adventurous, you can visit the <a href="https://www.ualberta.ca/vice-president-facilities-operations/index.html" target="_blank">Facilities and Operations' website</a> and guess where I might have been involved in. Have fun!</p>
         </div>
     </div>
     
@@ -91,14 +91,7 @@
             <p>As an analytics assistant, I helped with all things web related...in terms of Google Analytics. It was my first time ever doing any sort of analytics work, but it sort of came naturally to me. I had never realized that there was a way to digitally quantify all the sorts of questions and queries I'd had about the sites I'd been playing with previously. Being able to answer questions like who visited the sites the most, where the visitors were from, what pages they spent the most time on, why they left and where they left from was <i>extremely</i> cool to me, and again, I'm so grateful that Paul gave a kid barely out of high school an opportunity to learn on the spot like that.</p>
         </div>
     </div>
-        <div class="former-role twelve columns">
-
-        </div>
         
-      </div>
-    </div>
-
-
 <?php 
   include("footer.php");
 ?>
