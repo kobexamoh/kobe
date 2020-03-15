@@ -7,7 +7,7 @@
 
     <!-- row -->
     <div class="row">
-      <div class="eight columns">
+      <div class="six columns">
         <p>Yo, I'm Kobe. I'm a student, front-end UX developer, photographer, and writer.</p>
         
         <p>I'm a big fan of keeping things simple, moving with chutzpah, and always have time to make the people around me laugh a little.</p>
@@ -18,7 +18,9 @@
           <a href="about.php">about</a>
           <a href="contact.php">contact</a>
         </div>
-
+      </div>
+      <div class="six columns">
+        <img src="img/headshot-v1.jpg" alt="Self Portrait. Headshot.">
       </div>
     </div>
 

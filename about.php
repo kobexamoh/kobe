@@ -4,31 +4,41 @@
 ?>
 <h3>about</h3>
 <div class="row">
-    <div class="five columns">
-        <p>Okay, so the nonprofessional stuff:</p>
-        <p>I'm a huge soccer fan – <i>Hala Madrid y nada mas</i> and all that. I'm musical: I've played the piano since I was 4 or 5, and the guitar since I was 12. I like my music varied: from metalcore to hip-hop, from UK grime to drum and bass, from indie-alternative to classical (hi, <i>Moonlight Sonata</i>), I'm versatile in my tastes.</p>
+    <div class="eight columns">
+        <p>Okay, so the informal stuff.</p>
+        <p>I'm a huge soccer fan – <i>¡Hala Madrid y nada mas!</i> I'm pretty musical: I've played the piano since I was around 5 years old, and the guitar since I was 12. I like my music varied: from metalcore to hip-hop, from UK grime to drum and bass, from indie-alternative to classical (hi, <i>Moonlight Sonata</i>), I'm pretty versatile in my tastes.</p>
         
-        <p>I like being well rounded. I was always the kid who could never pick between the arts and the sciences, the kid who wasn't really sure <i>what</i> he wanted to do with his life. What does a jack-of-all-trades end up doing, anyway?</p>
+        <p>Versatile is a good word to describe me, actually. I've always liked being well rounded, but it was a source of confusion (for friends, family, and teachers, too) for a long time. I was the kid who could never pick between 'just' the arts or 'just' the sciences, the kid who wasn't really sure <i>what</i> he wanted to do with his life. What does a jack-of-all-trades end up doing, anyway?</p>
     
-        <p>After a lot of interesting life experiences <del>that may or may not have involved a previous life as a biology major</del> I stumbled into the world of frontend development and since then, I've been hooked. It was a long time in the making, if I'm being honest; I never thought that throwing up a blog on Blogger in 7th grade would bring me full circle nearly two decades later to the world of frontend development.</p>
+        <p>After a lot of interesting life experiences <del>that may or may not have involved a previous life as a biology major</del> I stumbled into the world of frontend development and since then, I've been hooked. I never thought that throwing up a blog on Blogger in 7th grade would (nearly two decades later!) bring me full circle  to the world of frontend development, but <i>alors</i>, here we are.</p>
     
-        <p>This is probably where I'd use some buzzwords – empathy, crafting-delightful-and-thoughtful-experiences, pixel-perfect-layouts, all of that – but I won't. It wouldn't be me. I don't need buzzwords to tell you that I get a kick out of the frontend experience, and I <i>genuinely</i> mean that. All of the good parts, all of the messy parts (styling for Internet Explorer? In 2020?) to the things that everyone can't seem to come to a consensus on (<i>hello</i>, site architecture and card sorts) I really do get a kick out of building up things that people interact with.</p>
+        <p>This is probably where I'd use some buzzwords – <i>empathy, crafting-delightful-and-thoughtful-experiences, pixel-perfect-layouts, all of that</i> – but I won't. I don't need buzzwords to tell you that I get a kick out of the frontend experience, out of building things that people interact with. I genuinely mean that.</p>
 
-        <p>Fine. Maybe one cliche. That feeling you get when you see your code in the browser – code you can <i>tangibly</i> interact with? I still live for that feeling, it humbles me every day, and I'm stoked on being in a career where I get to have these experiences regularly.</p>
+        <p>Fine. Maybe one cliche. That feeling you get when you see your code in the browser – code you can <i>tangibly</i> interact with? I live for that feeling. It humbles me every day, and I'm stoked on being in a career where I get to have these experiences regularly.</p>
     </div>
-    <div class="seven columns">
+    <!-- <div class="seven columns">
         <img src="img/headshot-v1.jpg" alt="Self Portrait. Headshot.">
-    </div>
+    </div> -->
 </div>
 
     <h3>Currently</h3>
     <div class="row">
       <div class="four columns info-block">
-        <p>Student @ Northern Alberta Institute of Technology (NAIT)</p>
-        <p>Program: Digital Media and Information Technology (Web Design & Development concentration)</p>
+        <h5 class="role">Student in Digital Media and Information Technology (Web Design & Development focus)</h5>
+        <p class="location">Northern Alberta Institute of Technology (NAIT)</p>
+        <p class="timeline">September 2016 – April 2020</p>
       </div>
       <div class="eight columns info-block">
-          <p>While a full time student, I'm happily interning with the Alberta Language Technology Laboratory (ALT Lab) under the supervision of Dr. Antti Arppe and Eddie Antonio Santos on the <i>itwêwina</i> project – an "intelligent" Plains Cree – English dictionary. As one of the undegraduate software development interns, I'm primarily a frontend developer: I work with Eddie and Dr. Arppe (along with a <i>very</i> talented team of linguists, developers, and PhDs) to make the frontend of the dictionary more robust and usable for those interested in using it.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns info-block">
+        <h5 class="role">Undergraduate Software Developer Intern</h5>
+        <p class="location">Alberta Language Technology Laboratory</p>
+        <p class="timeline">January 2020 – May 2020</p>
+      </div>
+      <div class="eight columns info-block">
+          <p>I'm also happily interning with the Alberta Language Technology Laboratory (ALT Lab) under the supervision of Dr. Antti Arppe and Eddie Antonio Santos on the <i>itwêwina</i> project – an "intelligent" Plains Cree – English dictionary. As one of the undegraduate software development interns, I'm primarily a frontend developer: I work with Eddie and Dr. Arppe (along with a <i>very</i> talented team of linguists, developers, and PhDs) to make the frontend of the dictionary more robust and usable for those interested in using it.</p>
 
           <p>To learn more about the project, you can visit the Lab's site <a href="http://altlab.artsrn.ualberta.ca/tools-applications/" target="_blank">here</a>.</p>
 

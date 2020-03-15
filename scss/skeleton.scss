@@ -1,0 +1,74 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/9/2014
+* Sass Version by Seth Coelen https://github.com/whatsnewsaes
+*/
+
+/* Base files. */
+@import "base/normalize";
+@import "base/variables";
+@import "base/functions";
+@import "base/base-styles";
+@import "base/utils";
+@import "base/typography";
+
+/* Modules */
+@import "modules/grid";
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/lists";
+@import "modules/code";
+@import "modules/tables";
+@import "modules/spacing";
+@import "modules/media-queries";
+
+/* Image Stuff */
+@import "images/images.scss";
+
+/* General Variables */
+$small-text: 0.75em;
+$light-color: #ededed;
+$dark-color: #563f3f;
+
+
+
+html {
+    background-color: $light-color;
+}
+
+body,
+.heading-link a {
+    color: #303136;
+}
+
+.heading-link a {
+    text-decoration: none;
+}
+
+.heading-link a:hover {
+    color: $dark-color;
+    border-bottom: 4px solid $dark-color;
+}
+
+.site-footer {
+    font-size: $small-text;
+    color: $dark-color;
+}
+
+img {
+    width: $full-image-width-in-container;
+}
+
+.timeline,
+.aside {
+    font-style: italic;
+}
+
+.aside {
+    border-left: 4px solid $heading-color;
+    padding-left: 10px;
+}
