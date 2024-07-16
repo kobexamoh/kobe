@@ -1,0 +1,69 @@
+{
+    "businesses": [
+        {
+            "id": 1,
+            "business_name": "Skynoodle",
+            "business_address": "4137 Cordelia Plaza",
+            "business_location": "Vancouver, BC",
+            "postal_code": "V5H 3Z7",
+            "primary_language": "Kurdish",
+            "secondary_languages": "Tamil",
+            "business_hours": "10AM - 6PM",
+            "phone_number": "780-555-0170",
+            "contact_email": "wbromage0@youku.com",
+            "business_image": "/business-photos/business-id-1.jpg"
+        },
+        {
+            "id": 2,
+            "business_name": "Agimba",
+            "business_address": "02 Russell Way",
+            "business_location": "St. Albert, AB",
+            "postal_code": "T5T 4E9",
+            "primary_language": "French",
+            "secondary_languages": "Arabic",
+            "business_hours": "9AM – 5PM",
+            "phone_number": "780-489-0125",
+            "contact_email": "braunds1@google.co.jp",
+            "business_image": "/business-photos/business-id-2.jpg"
+        },
+        {
+            "id": 3,
+            "business_name": "Fadeo",
+            "business_address": "25 Vermont Parkway",
+            "business_location": "Montreal, QC",
+            "postal_code": "H1H 2J4",
+            "primary_language": "Amharic",
+            "secondary_languages": "Arabic",
+            "business_hours": "7AM – 3PM",
+            "phone_number": "780-555-0947",
+            "contact_email": "kroscrigg2@stumbleupon.com",
+            "business_image": "/business-photos/business-id-3.jpg"
+        },
+        {
+            "id": 4,
+            "business_name": "Linktype",
+            "business_address": "0360 Bluejay Avenue",
+            "business_location": "Toronto, ON",
+            "postal_code": "M5W 4E6",
+            "primary_language": "Swahili",
+            "secondary_languages": "Portuguese",
+            "business_hours": "11AM – 6PM",
+            "phone_number": "780-200-0811",
+            "contact_email": "gyurkiewicz3@nih.gov",
+            "business_image": "/business-photos/business-id-4.jpg"
+        },
+        {
+            "id": 5,
+            "business_name": "Eire",
+            "business_address": "4 Packers Drive",
+            "business_location": "Edmonton, AB",
+            "postal_code": "T5R 2J4",
+            "primary_language": "Igbo",
+            "secondary_languages": "Twi",
+            "business_hours": "8AM – 4PM",
+            "phone_number": "780-938-0320",
+            "contact_email": "apadrick4@disqus.com",
+            "business_image": "/business-photos/business-id-5.jpg"
+        }
+    ]
+}

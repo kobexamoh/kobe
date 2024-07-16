@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 (Problem 2)</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <script src="https://kit.fontawesome.com/f95a6c8d4d.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body class="font-sans bg-blue-200">
+    <div class="container mx-auto max-w-screen-lg">
+        <header class="mt-12 flex flex-row items-center px-24">
+            <h1 class="text-3xl font-bold">All Recipes</h1>
+            <i class="far fa-user-circle mx-auto text-3xl"></i>
+        </header>
+    
+        <main class="mt-12 px-12">
+            <div class="sorting">
+                <select name="selection" id="selection">
+                    <option selected="selected" value="Sort By">Show Recipes By Season:</option>
+                    <option value="fall">Autumn/Thanksgiving</option>
+                    <option value="winter">Winter</option>
+                    <option value="summer">Summer</option>
+                    <option value="holiday">Holiday</option>
+                    <option value="all-year">Year-round</option>
+                </select>
+                <p>Showing <span id="selected-value">all recipes</span>.</p>
+            </div>
+    
+            <!-- Block of Recipes -->
+            <section class="recipes mt-6">
+                <!-- individual recipe -->
+                <div class="recipe mt-6 shadow-md flex">
+                    <h2 class="text-2xl font-bold">Clam Chowder
+                    <span class=ml-6 "seasons inline">
+                        <i class="fab fa-canadian-maple-leaf"></i>
+                        <i class="fas fa-snowflake"></i>
+                    </span>
+                    </h2>
+                    <div class="italic relative ml-24 bg-red-200 px-2 py-2 text-sm rounded-md">Skip It</div>
+                </div>
+                <!-- individual recipe -->
+                <div class="recipe mt-6 shadow-md flex">
+                    <h2 class="text-2xl font-bold">Spaghetti Bolognese
+                    <div class="ml-6 seasons inline">
+                        <i class="far fa-calendar-alt"></i>
+                        <i class="far fa-sun"></i>
+                    </div>
+                    </h2>
+                    <div class="italic relative ml-24 bg-yellow-200 px-2 py-2 text-sm rounded-md">Save For Later</div>
+                </div>
+                <!-- individual recipe -->
+                <div class="recipe mt-6 shadow-md flex">
+                    <h2 class="text-2xl font-bold">Shepherd's Pie
+                    <div class="ml-6 seasons inline">
+                        <i class="fas fa-snowflake"></i>
+                        <i class="fas fa-sleigh"></i>
+                    </div>
+                    </h2>
+                    <div class="italic relative ml-24 bg-green-200 px-2 py-2 text-sm rounded-md">Ready for Editing</div>
+                </div>
+            </section>
+    
+            <button class="absolute bottom-0 right-12 rounded-md bg-blue-600 px-3 py-3 text-gray-50 text-lg font-semibold">
+                + New Recipe
+            </button>
+        </main>
+    </div>
+
+</body>
+</html>
+
+<!-- summer font icon: <i class="far fa-sun"></i> -->
+<!-- fall font-icon: <i class="fab fa-canadian-maple-leaf"></i> -->
+<!-- winter font-icon: <i class="fas fa-snowflake"></i> -->
+<!-- holidays font-icon: <i class="fas fa-sleigh"></i> -->
+<!-- year round font-icon: <i class="far fa-calendar-alt"></i> -->

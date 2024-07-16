@@ -1,0 +1,167 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Box Sizing */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* C A R D S  A R E A */
+/* container for the card */
+.cards {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap: 8px;
+    margin-bottom: 24px;
+}
+
+/* the cards themselves */
+.blurb {
+    background-color: #2c3e5b;
+    color: #f9f8f7;
+    height: 256px;
+    font-family: 'Roboto', sans-serif;
+    padding: 43px 18px 50px 31px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+}
+
+.card h3,
+.computed-stat {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card p,
+.stat-descriptor {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* Grid Magic */
+@media (min-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 65px;
+    }
+}
+
+
+/* K E Y W O R D S  A R E A */
+/* Container for the keywords */
+.keywords {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, auto);
+}
+
+.keyword {
+    height: 224px;
+}
+
+.keyword img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Grid Magic again */
+@media (min-width: 1024px) {
+    .keywords {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* S T A T I S T I C S  A R E A */
+/* Container for the statistics */
+.statistics {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #f9f8f7;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.computed-stat {
+    margin-top: 24px;
+    margin-bottom: 6px;
+    font-size: 2.25rem;
+}
+
+.stat-descriptor {
+    margin-top: 6px;
+}
+
+.statistic,
+.footer {
+    text-align: center;
+}
+
+/* Grid Magic again */
+@media (min-width: 768px) {
+    .statistics {
+        grid-template-columns: repeat(5, 1fr);
+        margin-top: 64px;
+        margin-bottom: 40px;
+    }
+
+    .computed-stat {
+        margin-top: 88px;
+    }
+
+    .stat-descriptor {
+        margin-top: 0;
+        margin-bottom: 67px;
+    }
+}
+
+
+/* F O O T E R  A R E A */
+/* Containers for the footer(s) */
+.footers {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer {
+    text-transform: uppercase;
+    color: #aeaeae;
+    font-weight: 700;
+}
+
+/* Footer Grid Magic */
+@media (min-width: 768px) {
+    .footers {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+}
+
+.svg-img {
+    padding: 40px 107px 41px 108px;
+    background-color: #f9f8f7;
+}
+.icon {
+    display: inline;
+    max-width: 150px;
+    stroke: #d6d6d2;
+    fill: #d6d6d2;
+
+
+  }
